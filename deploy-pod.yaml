@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: btech-testpod-samu
+  namespace: btech-samu
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: btech-testpod-samu
+  template:
+    metadata:
+      labels:
+        app: btech-testpod-samu
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:1.19
+        ports:
+        - containerPort: 80
+      nodeName: k9adm-pod8-worker1
