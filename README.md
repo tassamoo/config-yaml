@@ -1,4 +1,4 @@
-# Grimoire: A Codex Arcanum of Ye Learning Quest 
+# Grimoire: A Codex Arcanum of My Learning Quest 
 
 Embark upon a mystical sojourn within the hallowed pages of 'Grimoire,' a repository wherein the ancient arts of codery and technomancy are unveiled. Herein, each commit doth act as an incantation most powerful, each line of script a spell woven, as I chronicle mine own journey through the boundless dominions of technologia.
 
