@@ -1,0 +1,20 @@
+1. Install Podman
+
+```bash
+sudo yum install -y podman
+```
+2. Add Registry Podman
+
+```bash
+sudo nano /etc/containers/registries.conf
+```
+
+```bash
+#add local registry with specific port
+unqualified-search-registries = ["registry.do180.lab:5000","docker.io"]
+
+#add insecure registry
+[[registry]]
+location="registry.do180.lab:5000"
+insecure=true
+```
